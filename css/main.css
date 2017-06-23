@@ -4,13 +4,27 @@
 	height: 105px;
 	position: fixed;
 	background: linear-gradient(#f7f073, #f75e6d); /* Standard syntax */
+	
+  /* background-image: url(../img/textura2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  */
 }
 
 .navi{
 	font-family: 'Quicksand', sans-serif;
-	color:black;
+	color:white;
 	font-weight: bolder;
 	font-size: 25px;
+}
+
+.tamano{
+	height: 290px;
 }
 
 p{
@@ -124,10 +138,17 @@ span{
   opacity: 0;
 }
 
-/*@media (min-width: 1200px) {
-  #tarjeta4{
-	margin-left: 195px;
-}*/
-
+@media (max-width : 480px) {
+	 .uk-navbar-nav{
+	 	display: block;
+	 }
+	 .navv{
+	 		height: 430px;
+	 		position: relative;
+	}
+	#presentacion{
+		margin-top: 430px;
+	}
+}
 
 
