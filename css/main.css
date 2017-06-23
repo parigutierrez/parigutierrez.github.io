@@ -1,24 +1,24 @@
-body{
-	background-color: cyan;
-}
 
+p{
+	font-family: 'Quicksand', sans-serif;
+}
 footer{
-	padding-top: 20px;
-  	background-color: #f75e6d;
+	
+  	background-color: #f7c336;
+  	font-family: 'Quicksand', sans-serif;
 }
 
 .footer-copyright{
   overflow: hidden;
-  min-height: 50px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px 0px;
+  padding-bottom: 20px;
   color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(51, 51, 51, 0.08);
+ 
 }
 
 .bg-mycard{
@@ -28,3 +28,65 @@ footer{
 .uk-grid > * {
 	padding-left: 30px;
 }
+.fuente{
+	 font-family: 'Quicksand', sans-serif;
+
+}
+h1 {
+	font-weight: 700;
+	color:#f75e6d;
+}
+span{
+	font-weight: 500;
+	color:#68b03d;
+}
+#copyR{
+padding-bottom: 30px;
+overflow: hidden;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#presentacion{
+background-color: #f2f2f2;
+}
+
+#habilidades{
+background-color: #8ed363;
+padding: 45px,0px;
+}
+
+#habilidades h1{
+font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #f75e6d;
+}
+.textPresentacion{
+	font-weight: 400;
+	font-size: 20px;
+	color:#626262;
+}
+#proyectos{
+background-color:#f79896;
+font-family: 'Quicksand', sans-serif;
+padding: 45px,0px;
+}
+#proyectos h1{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #62b135;
+}
+#margin{
+	padding-top: 25px;
+}
+
+/*@media (min-width: 1200px) {
+  #tarjeta4{
+	margin-left: 195px;
+}*/
+
+
+
