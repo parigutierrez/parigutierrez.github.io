@@ -1,11 +1,28 @@
+.navv{
+	z-index: 1;
+	width: 100%;
+	height: 105px;
+	position: fixed;
+	background: linear-gradient(#f7f073, #f75e6d); /* Standard syntax */
+}
+
+.navi{
+	font-family: 'Quicksand', sans-serif;
+	color:black;
+	font-weight: bolder;
+	font-size: 25px;
+}
 
 p{
 	font-family: 'Quicksand', sans-serif;
+	text-align: center;
 }
+
 footer{
-	
-  	background-color: #f7c336;
+  	background: linear-gradient(#f7f073, #f75e6d); /* Standard syntax */
   	font-family: 'Quicksand', sans-serif;
+  	padding-top: 35px;
+	padding-bottom: 45px;
 }
 
 .footer-copyright{
@@ -14,11 +31,17 @@ footer{
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-bottom: 20px;
+  -ms-flex-align: center;
+   align-items: center;
+  padding-bottom: 10px;
   color: rgba(255, 255, 255, 0.8);
  
+}
+
+#copyR{
+	padding-left: 33px;
+	overflow: hidden;
+	color: #5a6262; 
 }
 
 .bg-mycard{
@@ -28,59 +51,77 @@ footer{
 .uk-grid > * {
 	padding-left: 30px;
 }
+
+.nombre{
+	padding-left: 30px;
+}
+
 .fuente{
 	 font-family: 'Quicksand', sans-serif;
-
 }
 h1 {
 	font-weight: 700;
 	color:#f75e6d;
+	padding: 45px,0px;
+}
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 600;
+	color:#5a6262;
+	
 }
 span{
 	font-weight: 500;
 	color:#68b03d;
 }
-#copyR{
-padding-bottom: 30px;
-overflow: hidden;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
+
 #presentacion{
-background-color: #f2f2f2;
+	background-color: #f2f2f4;
+	margin-top: 65px;
 }
 
 #habilidades{
-background-color: #8ed363;
-padding: 45px,0px;
+	background-color: #f2eeee;
+	padding-top: 35px;
+	padding-bottom: 45px;
 }
-
-#habilidades h1{
-font-family: 'Quicksand', sans-serif;
-	font-weight: 700;
-	color: #f75e6d;
+.tarjetas{
+	height: 370px;
 }
 .textPresentacion{
 	font-weight: 400;
 	font-size: 20px;
 	color:#626262;
+	padding-left: 68px;
+	padding-right: 68px;
 }
+
 #proyectos{
-background-color:#f79896;
-font-family: 'Quicksand', sans-serif;
-padding: 45px,0px;
-}
-#proyectos h1{
+	background-color:#f7ada2;
 	font-family: 'Quicksand', sans-serif;
-	font-weight: 700;
-	color: #62b135;
+	padding-top: 45px;
+	padding-bottom: 45px;
 }
+
 #margin{
 	padding-top: 25px;
+}
+
+.contenedor {
+  position: relative;
+  height: 290px;
+  width: 290px;
+  margin: 50px auto;
+}
+
+.contenedor img {
+  position: absolute;
+  left: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.contenedor img.top:hover {
+  opacity: 0;
 }
 
 /*@media (min-width: 1200px) {
